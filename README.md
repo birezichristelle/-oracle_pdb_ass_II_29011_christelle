@@ -60,9 +60,15 @@ All commands were executed personally on my local Oracle 21c instance. Screensho
  Final Submission Checklist
  
 ✅ PDB names follow exact format (ch_pdb_29011)
+
 ✅ User created inside PDB (christelle_plsqlauca_29011)
+
 ✅ Temporary PDB created AND deleted
+
 ✅ OEM screenshot shows dashboard + PDB
+
 ✅ GitHub repo is PUBLIC
+
 ✅ README includes all required sections
+
 ✅ Submitted via Google Form before Feb 16, 2026, 11:59 PM
