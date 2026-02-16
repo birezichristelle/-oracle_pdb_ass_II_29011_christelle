@@ -40,8 +40,10 @@ Task 2: Temporary PDB Lifecycle
 )
 ![Description](screenshots/creation_of_user.png)
 Task 3: Oracle Enterprise Manager
-- OEM Express enabled on port 5500  
+- OEM Express enabled on port 5500
+   ![Description](screenshots/loging_in.png) 
 - Dashboard confirms PDB status and environment health
+  ![Description](users.png)
 
  Challenges & Solutions
 
