@@ -1,6 +1,9 @@
-Oracle Pluggable Database Management – Assignment II  
-Student: NGANJI BIREZI CHRISTELLE  
-Student ID: 29011 
+Oracle Pluggable Database Management – Assignment II
+
+Student: NGANJI BIREZI CHRISTELLE
+
+Student ID: 29011
+
 Course: INSY 8311 Database Development with PL/SQL  
 
 Overview
@@ -19,25 +22,24 @@ Task 1: Permanent PDB Creation
 - Created user: christelle_plsqlauca_29011 with DBA privileges  
 - PDB is open and ready for application deployment
 
-### Task 2: Temporary PDB Lifecycle
-- Created: `al_to_delete_pdb_2024101`  
+Task 2: Temporary PDB Lifecycle
+- Created: ch_to_delete_pdb_29011  
 - Verified existence  
-- Dropped with `INCLUDING DATAFILES`  
-- Confirmed removal via `SHOW PDBS`
+- Dropped with INCLUDING DATAFILES  
+- Confirmed removal via SHOW PDBS
 
-### Task 3: Oracle Enterprise Manager
+Task 3: Oracle Enterprise Manager
 - OEM Express enabled on port 5500  
 - Dashboard confirms PDB status and environment health
 
-## Challenges & Solutions
-- **Challenge**: OEM not loading due to HTTPS certificate  
-  **Solution**: Accepted self-signed cert in browser  
-- **Challenge**: PDB not opening after creation  
-  **Solution**: Ran `ALTER PLUGGABLE DATABASE ... OPEN;` explicitly
+ Challenges & Solutions
 
-## Integrity Statement
+- Challenge: PDB not opening after creation  
+  Solution: Ran ALTER PLUGGABLE DATABASE ... OPEN; explicitly
+
+Integrity Statement
 All commands were executed personally on my local Oracle 21c instance. Screenshots reflect my own terminal and OEM sessions. No AI tools were used to generate commands or solutions.
 
-## Submission Info
-- **PDB Name Created**: al_pdb_2024101  
-- **Issues Encountered**: Yes (resolved as above)
+ Submission Info
+- PDB Name Created: ch_pdb_29011  
+- Issues Encountered: Yes (resolved as above)
