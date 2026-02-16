@@ -18,16 +18,27 @@ This assignment demonstrates hands-on Oracle Multitenant architecture skills by 
  Task Execution
 
 Task 1: Permanent PDB Creation
-- Created PDB: ch_pdb_29011  
-- Created user: christelle_plsqlauca_29011 with DBA privileges  
+- Created PDB: ch_pdb_29011
+  ![Description](screenshots/creating_a_pluggable_database.png)
+)
+- Created user: christelle_plsqlauca_29011 with DBA privileges
+  ![Description](screenshots/creation_of_user.png)
 - PDB is open and ready for application deployment
+  ![Description](screenshots/opening_pluggable_database.png
+)
 
 Task 2: Temporary PDB Lifecycle
-- Created: ch_to_delete_pdb_29011  
-- Verified existence  
-- Dropped with INCLUDING DATAFILES  
-- Confirmed removal via SHOW PDBS
-
+- Created: ch_to_delete_pdb_29011
+   ![Description](screenshots/creation_of_temporary_database.png)
+- Verified existence
+  ![Description](screenshots/verifying_if_temporary_db_is_created.png
+)
+- Dropped with INCLUDING DATAFILES
+  ![Description](screenshots/deleting_the_temporary_database.png)
+- Confirmed removal
+   ![Description](screenshots/confrimation_of_deletion_of_temporary_database.png
+)
+![Description](screenshots/creation_of_user.png)
 Task 3: Oracle Enterprise Manager
 - OEM Express enabled on port 5500  
 - Dashboard confirms PDB status and environment health
