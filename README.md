@@ -41,9 +41,9 @@ Task 2: Temporary PDB Lifecycle
 ![Description](screenshots/creation_of_user.png)
 Task 3: Oracle Enterprise Manager
 - OEM Express enabled on port 5500
-   ![Description](screenshots/loging_in.png) 
+   ![Description](screenshots/logining_in.png) 
 - Dashboard confirms PDB status and environment health
-  ![Description](users.png)
+  ![Description](screenshots/users.png)
 
  Challenges & Solutions
 
@@ -56,3 +56,13 @@ All commands were executed personally on my local Oracle 21c instance. Screensho
  Submission Info
 - PDB Name Created: ch_pdb_29011  
 - Issues Encountered: Yes (resolved as above)
+  
+ Final Submission Checklist
+ 
+✅ PDB names follow exact format (ch_pdb_29011)
+✅ User created inside PDB (christelle_plsqlauca_29011)
+✅ Temporary PDB created AND deleted
+✅ OEM screenshot shows dashboard + PDB
+✅ GitHub repo is PUBLIC
+✅ README includes all required sections
+✅ Submitted via Google Form before Feb 16, 2026, 11:59 PM
